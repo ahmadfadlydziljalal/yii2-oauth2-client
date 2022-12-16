@@ -10,14 +10,13 @@ Ini adalah contoh Yii2 Auth client yang meng-implementasi Yii2 OAuth2 server dar
 Cara menggunakannya:
 1. Clone Project,
 2. Running composer update,
-3. Buat sebuah database
+3. Buat sebuah database yang akan digunakan untuk repo ini,
 4. Rename `config/db-example.php` menjadi `config/db.php`, dan sesuaikan,
 5. Running migration,
     1. `php yii migrate rbac`
     2. `php yii migrate-mdm`
-    3. `php yii migrate-filsh`
-    4. `php yii migrate`
-6. Running server dengan mengetikkan perintah `php yii serve`
+    3. `php yii migrate`
+6. Running server dengan mengetikkan perintah `php yii serve localhost:8081`
 7. Aplikasi siap digunakan 
 
 Implementasi Oauth2 pada repo ini ada 2, yaitu:

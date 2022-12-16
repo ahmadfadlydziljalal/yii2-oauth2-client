@@ -91,7 +91,7 @@ class SiteController extends Controller
         if ($model->load(Yii::$app->request->post())) {
 
            /* @var $client MyOAuth2AuthClient */
-           $client = Yii::$app->authClientCollection->getClient('sihrd');
+           $client = Yii::$app->authClientCollection->getClient('my-oauth2');
 
            try {
               if($client->authenticateUser($model->username, $model->password)){
