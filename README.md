@@ -6,7 +6,7 @@
     <br>
 </p>
 
-Ini adalah contoh Yii2 Auth client yang meng-implementasi Yii2 OAuth2 server dari repository [Yii2 OAuth2 Server](https://github.com/ahmadfadlydziljalal/yii2-oauth2-server]) buatan Saya.
+Ini adalah contoh Yii2 Auth client yang meng-implementasi Yii2 OAuth2 server dari repository [Yii2 OAuth2 Server](https://github.com/ahmadfadlydziljalal/yii2-oauth2-server) buatan Saya.
 Cara menggunakannya:
 1. Clone Project,
 2. Running composer update,
