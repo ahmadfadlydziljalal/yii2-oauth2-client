@@ -13,7 +13,7 @@ Cara menggunakannya:
 3. Buat sebuah database yang akan digunakan untuk repo ini,
 4. Rename `config/db-example.php` menjadi `config/db.php`, dan sesuaikan,
 5. Running migration,
-    1. `php yii migrate rbac`
+    1. `php yii migrate-rbac`
     2. `php yii migrate-mdm`
     3. `php yii migrate`
 6. Running server dengan mengetikkan perintah `php yii serve localhost:8081`
